@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import heapq
+
 from collections import defaultdict
 from dataclasses import dataclass
 from dataclasses import fields
@@ -76,6 +78,111 @@ def loads(s: str | bytes) -> Any:
     """Load a JSON string."""
     return simplejson_loads(s)
 
+class TreeNode:
+    def __init__(self, name, depth, parent=None):
+        self.name = name
+        self.parent = parent
+        self.depth = depth
+        self.children = []
+        self.collapsed = False
+        self.visible_count = 0
+
+    def priority(self):
+        return -(self.depth * 1000 + self.visible_count)
+
+    def dict(self):
+        return {
+          'name': self.name,
+          'depth': self.depth,
+          'parent': self.parent.name if self.parent else None,
+          'children': [c.dict() for c in self.children],
+          'visible_count': self.visible_count,
+        }
+
+def build_tree(accounts):
+    root = TreeNode("Root", 0)
+    nodes = {"Root": root}
+    for account in accounts:
+        parts = beancount_account.split(account)
+        parent = root
+        name = None
+        for i, part in enumerate(parts):
+            name = name + beancount_account.sep + part if name else part
+            if name not in nodes:
+                node = TreeNode(name, i + 1, parent)
+                nodes[name] = node
+                parent.children.append(node)
+            parent = nodes[name]
+        while parent != None:
+            parent.visible_count += 1
+            parent = parent.parent
+
+    return root, nodes
+
+def collapse_nodes(root, nodes, account_inventories, limit):
+    pq = []
+    added = {}
+    entry = 0
+    def add_node(node):
+        if node.name in added:
+            return
+        nonlocal entry
+        heapq.heappush(pq, (node.priority(), entry, node))
+        entry += 1
+        added[node.name] = True
+
+    def update_ancestor_counts(node, change):
+        while node.parent:
+            node.parent.visible_count += change
+            node = node.parent
+
+    def collapse(node):
+        if node.name == "Root" or node.collapsed:
+            return
+        node.collapsed = True
+        visible_children = 0
+
+        account_inventories.setdefault(node.name, CounterInventory())
+        for child in node.children:
+            collapse(child)
+            visible_children += child.visible_count
+            child_inventory = account_inventories.pop(child.name)
+            account_inventories[node.name] += child_inventory
+
+        update_ancestor_counts(node, -(node.visible_count - 1))
+        node.visible_count = 1
+
+    for node in nodes.values():
+        if len(node.children) > 0:
+            # this is not a leaf
+            continue
+        if node.parent:
+            add_node(node.parent)
+    del node
+
+    while len(account_inventories) > limit and len(pq) > 0:
+        priority, candidate_entry, candidate = heapq.heappop(pq)
+        if candidate.collapsed:
+            continue
+        if candidate.priority() != priority:
+            # out of date, try again
+            heapq.heappush(pq, (candidate.priority(), candidate_entry, candidate))
+            continue
+
+        # only collapse if we get something from it
+        if candidate.visible_count > 1:
+            collapse(candidate)
+        if candidate.parent:
+            add_node(candidate.parent)
+
+
+def limit_account_inventories(limit: int, account_inventories: dict[str, CounterInventory]) -> dict[str, CounterInventory]:
+    root, nodes = build_tree(account_inventories.keys())
+
+    limited_inventories = dict(account_inventories)
+    collapse_nodes(root, nodes, limited_inventories, limit)
+    return limited_inventories
+
 
 class FavaJSONProvider(JSONProvider):
     """Use custom JSON encoder and decoder."""
@@ -142,6 +249,7 @@ class ChartModule(FavaModule):
         conversion: str | Conversion,
         *,
         invert: bool = False,
+        interval_limit: int = 10,
     ) -> Iterable[DateAndBalanceWithBudget]:
         """Render totals for account (or accounts) in the intervals.
 
@@ -173,9 +281,7 @@ class ChartModule(FavaModule):
             for entry in entries:
                 for posting in getattr(entry, "postings", []):
                     if posting.account.startswith(accounts):
-                        limit = 2 if posting.account.startswith('Income') else 3
-                        grouping = beancount_account.root(limit, posting.account)
-                        account_inventories[grouping].add_position(
+                        account_inventories[posting.account].add_position(
                             posting,
                         )
                         inventory.add_position(posting)
@@ -185,6 +291,7 @@ class ChartModule(FavaModule):
                 prices,
                 date_range.end_inclusive,
             )
+            account_inventories = limit_account_inventories(interval_limit, account_inventories)
             account_balances = {
                 account: cost_or_value(
                     acct_value,

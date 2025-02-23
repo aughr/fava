@@ -13,64 +13,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 377.12
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 8.7
+            "Expenses:Health": {
+              "USD": 290.7
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 72.96
+            "Expenses:Home": {
+              "USD": 2629.97
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 82.14
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 126.9
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.83
-            },
-            "Expenses:Home:Phone": {
-              "USD": 85.14
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 524.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 3188.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 3600.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 319.86
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 3.36
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 844.62
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 1095.24
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 3600.0,
+              "USD": 5976.6
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -72.96
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -1800.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -13846.14
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -15719.1,
               "VACHR": -15
             },
             "Income:US:Federal:PreTax401k": {
@@ -96,64 +53,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 287.35
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2602.94
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 80.15
-            },
-            "Expenses:Home:Phone": {
-              "USD": 57.79
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -1200.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -10479.4,
               "VACHR": -10
             }
           },
@@ -176,64 +90,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 364.91
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2611.1
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.92
-            },
-            "Expenses:Home:Phone": {
-              "USD": 66.18
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -1200.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -10479.4,
               "VACHR": -10
             }
           },
@@ -256,64 +127,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 322.15
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2608.65
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.95
-            },
-            "Expenses:Home:Phone": {
-              "USD": 63.7
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -1200.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -10479.4,
               "VACHR": -10
             }
           },
@@ -336,64 +164,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 295.33
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2603.39
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.97
-            },
-            "Expenses:Home:Phone": {
-              "USD": 58.42
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -1200.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -10479.4,
               "VACHR": -10
             }
           },
@@ -416,64 +201,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 296.7
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2604.7
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.82
-            },
-            "Expenses:Home:Phone": {
-              "USD": 59.88
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -1200.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -10479.4,
               "VACHR": -10
             }
           },
@@ -496,64 +238,21 @@
             "Expenses:Food:Restaurant": {
               "USD": 301.91
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 8.7
+            "Expenses:Health": {
+              "USD": 290.7
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 72.96
+            "Expenses:Home": {
+              "USD": 2605.4
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 82.14
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 126.9
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.98
-            },
-            "Expenses:Home:Phone": {
-              "USD": 60.42
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 524.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 3188.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 1900.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 319.86
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 3.36
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 844.62
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 1095.24
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 1900.0,
+              "USD": 5976.6
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -72.96
-            },
-            "Income:US:BayBook:Match401k": {
-              "USD": -950.0
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -13846.14
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -14869.1,
               "VACHR": -15
             }
           },
@@ -576,58 +275,20 @@
             "Expenses:Food:Restaurant": {
               "USD": 421.98
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2600.0
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 80.3
-            },
-            "Expenses:Home:Phone": {
-              "USD": 54.7
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -9279.4,
               "VACHR": -10
             }
           },
@@ -652,58 +313,20 @@
             "Expenses:Food:Restaurant": {
               "USD": 307.74
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2604.19
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.88
-            },
-            "Expenses:Home:Phone": {
-              "USD": 59.31
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -9279.4,
               "VACHR": -10
             },
             "Income:US:ETrade:Dividends": {}
@@ -726,58 +349,20 @@
             "Expenses:Food:Restaurant": {
               "USD": 552.07
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2618.21
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 80.07
-            },
-            "Expenses:Home:Phone": {
-              "USD": 73.14
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -9279.4,
               "VACHR": -10
             }
           },
@@ -802,58 +387,20 @@
             "Expenses:Food:Restaurant": {
               "USD": 362.01
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2602.61
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 80.06
-            },
-            "Expenses:Home:Phone": {
-              "USD": 57.55
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -9279.4,
               "VACHR": -10
             }
           },
@@ -878,65 +425,24 @@
             "Expenses:Food:Restaurant": {
               "USD": 287.8
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2611.28
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.86
-            },
-            "Expenses:Home:Phone": {
-              "USD": 66.42
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 243.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3664.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
             },
-            "Income:US:BayBook:GroupTermLife": {
-              "USD": -48.64
-            },
-            "Income:US:BayBook:Salary": {
-              "USD": -9230.76
-            },
-            "Income:US:BayBook:Vacation": {
+            "Income:US:BayBook": {
+              "USD": -9279.4,
               "VACHR": -10
             },
-            "Income:US:ETrade:Dividends": {
-              "USD": -51.68
-            },
-            "Income:US:ETrade:Gains": {
-              "USD": 98.12
+            "Income:US:ETrade": {
+              "USD": 46.44
             }
           },
           "balance": {
@@ -1241,38 +747,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 126.9
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2629.97
             },
-            "Expenses:Home:Internet": {
-              "USD": 79.83
-            },
-            "Expenses:Home:Phone": {
-              "USD": 85.14
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 524.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 3188.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 3600.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 319.86
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 3.36
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 844.62
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 1095.24
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 3600.0,
+              "USD": 5976.6
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1308,38 +788,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2602.94
             },
-            "Expenses:Home:Internet": {
-              "USD": 80.15
-            },
-            "Expenses:Home:Phone": {
-              "USD": 57.79
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1375,38 +829,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2611.1
             },
-            "Expenses:Home:Internet": {
-              "USD": 79.92
-            },
-            "Expenses:Home:Phone": {
-              "USD": 66.18
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1442,38 +870,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2608.65
             },
-            "Expenses:Home:Internet": {
-              "USD": 79.95
-            },
-            "Expenses:Home:Phone": {
-              "USD": 63.7
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1509,38 +911,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2603.39
             },
-            "Expenses:Home:Internet": {
-              "USD": 79.97
-            },
-            "Expenses:Home:Phone": {
-              "USD": 58.42
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1576,38 +952,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2604.7
             },
-            "Expenses:Home:Internet": {
-              "USD": 79.82
-            },
-            "Expenses:Home:Phone": {
-              "USD": 59.88
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 2400.0,
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1643,38 +993,12 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 126.9
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2605.4
             },
-            "Expenses:Home:Internet": {
-              "USD": 79.98
-            },
-            "Expenses:Home:Phone": {
-              "USD": 60.42
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 524.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 3188.76
-            },
-            "Expenses:Taxes:Y2014:US:Federal:PreTax401k": {
-              "IRAUSD": 1900.0
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 319.86
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 3.36
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 844.62
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 1095.24
+            "Expenses:Taxes:Y2014:US": {
+              "IRAUSD": 1900.0,
+              "USD": 5976.6
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1710,35 +1034,11 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2600.0
             },
-            "Expenses:Home:Internet": {
-              "USD": 80.3
-            },
-            "Expenses:Home:Phone": {
-              "USD": 54.7
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1764,47 +1064,14 @@
             "Expenses:Food:Restaurant": {
               "USD": 307.74
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2604.19
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.88
-            },
-            "Expenses:Home:Phone": {
-              "USD": 59.31
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1839,35 +1106,11 @@
             "Expenses:Health:Vision:Insurance": {
               "USD": 84.6
             },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
+            "Expenses:Home": {
+              "USD": 2618.21
             },
-            "Expenses:Home:Internet": {
-              "USD": 80.07
-            },
-            "Expenses:Home:Phone": {
-              "USD": 73.14
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1893,47 +1136,14 @@
             "Expenses:Food:Restaurant": {
               "USD": 362.01
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2602.61
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 80.06
-            },
-            "Expenses:Home:Phone": {
-              "USD": 57.55
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 563.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3984.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
@@ -1959,47 +1169,14 @@
             "Expenses:Food:Restaurant": {
               "USD": 287.8
             },
-            "Expenses:Health:Dental:Insurance": {
-              "USD": 5.8
+            "Expenses:Health": {
+              "USD": 193.8
             },
-            "Expenses:Health:Life:GroupTermLife": {
-              "USD": 48.64
+            "Expenses:Home": {
+              "USD": 2611.28
             },
-            "Expenses:Health:Medical:Insurance": {
-              "USD": 54.76
-            },
-            "Expenses:Health:Vision:Insurance": {
-              "USD": 84.6
-            },
-            "Expenses:Home:Electricity": {
-              "USD": 65.0
-            },
-            "Expenses:Home:Internet": {
-              "USD": 79.86
-            },
-            "Expenses:Home:Phone": {
-              "USD": 66.42
-            },
-            "Expenses:Home:Rent": {
-              "USD": 2400.0
-            },
-            "Expenses:Taxes:Y2014:US:CityNYC": {
-              "USD": 349.84
-            },
-            "Expenses:Taxes:Y2014:US:Federal": {
-              "USD": 2125.84
-            },
-            "Expenses:Taxes:Y2014:US:Medicare": {
-              "USD": 213.24
-            },
-            "Expenses:Taxes:Y2014:US:SDI": {
-              "USD": 2.24
-            },
-            "Expenses:Taxes:Y2014:US:SocSec": {
-              "USD": 243.08
-            },
-            "Expenses:Taxes:Y2014:US:State": {
-              "USD": 730.16
+            "Expenses:Taxes:Y2014:US": {
+              "USD": 3664.4
             },
             "Expenses:Transport:Tram": {
               "USD": 120.0
