@@ -1,8 +1,12 @@
 from __future__ import annotations
 
+from collections import defaultdict
 from decimal import Decimal
 from typing import TYPE_CHECKING
 
+from fava.beans import create
+from fava.core import charts
+from fava.core.inventory import CounterInventory
 from fava.util.date import Interval
 
 if TYPE_CHECKING:  # pragma: no cover
@@ -100,3 +104,34 @@ def test_hierarchy(example_ledger: FavaLedger) -> None:
     etrade = data.children[1].children[2]
     assert etrade.account == "Assets:US:ETrade"
     assert etrade.balance_children == {"USD": Decimal("23137.54")}
+
+
+def test_limit_account_inventories() -> None:
+    def inventory_for(usd):
+        c = CounterInventory()
+        c.add_amount(create.amount(f"{usd} USD"))
+        return c
+
+    account_inventories: dict[str, CounterInventory] = {}
+    account_inventories['Expenses:Test:A'] = inventory_for(10)
+    account_inventories['Expenses:Test:B'] = inventory_for(10)
+    account_inventories['Expenses:Test:C'] = inventory_for(10)
+    account_inventories['Expenses:Test:D:Child'] = inventory_for(10)
+
+    assert account_inventories == charts.limit_account_inventories(10, account_inventories)
+    assert account_inventories == charts.limit_account_inventories(4, account_inventories)
+
+    assert {'Expenses:Test': inventory_for(40)} == charts.limit_account_inventories(2, account_inventories)
+
+    account_inventories['Expenses:Test:A:Child'] = inventory_for(5)
+    assert {'Expenses:Test:A': inventory_for(15), 'Expenses:Test:B': inventory_for(10), 'Expenses:Test:C': inventory_for(10), 'Expenses:Test:D:Child': inventory_for(10)} == charts.limit_account_inventories(4, account_inventories)
+    assert {'Expenses:Test': inventory_for(45)} == charts.limit_account_inventories(2, account_inventories)
+
+    account_inventories['Expenses:Test:B:Test'] = inventory_for(5)
+    assert {'Expenses:Test:A': inventory_for(15), 'Expenses:Test:B': inventory_for(15), 'Expenses:Test:C': inventory_for(10), 'Expenses:Test:D:Child': inventory_for(10)} == charts.limit_account_inventories(4, account_inventories)
+    assert {'Expenses:Test': inventory_for(50)} == charts.limit_account_inventories(1, account_inventories)
+
+    del account_inventories['Expenses:Test:D:Child']
+    assert {'Expenses:Test:A': inventory_for(15), 'Expenses:Test:B': inventory_for(15), 'Expenses:Test:C': inventory_for(10)} == charts.limit_account_inventories(3, account_inventories)
+    assert {'Expenses:Test': inventory_for(40)} == charts.limit_account_inventories(1, account_inventories)
+
