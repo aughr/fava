@@ -13,6 +13,7 @@ from re import Pattern
 from typing import Any
 from typing import TYPE_CHECKING
 
+from beancount.core import account as beancount_account
 from beancount.core.amount import Amount
 from beancount.core.data import Booking
 from beancount.core.data import iter_entry_dates
@@ -172,7 +173,9 @@ class ChartModule(FavaModule):
             for entry in entries:
                 for posting in getattr(entry, "postings", []):
                     if posting.account.startswith(accounts):
-                        account_inventories[posting.account].add_position(
+                        limit = 2 if posting.account.startswith('Income') else 3
+                        grouping = beancount_account.root(limit, posting.account)
+                        account_inventories[grouping].add_position(
                             posting,
                         )
                         inventory.add_position(posting)
